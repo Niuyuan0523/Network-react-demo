@@ -19,13 +19,13 @@
   z-index: 100;
 } */
 
-.logo {
+/* .logo {
   font-size: 20px;
   font-weight: bold;
   color: #fff;
-}
+} */
 
-.top-nav {
+/* .top-nav {
   display: flex;
   gap: 8px;
 }
@@ -46,18 +46,18 @@
 .nav-link.active {
   color: #fff;
   background: #646cff;
-}
+} */
 
 /* 主容器 */
-.container {
+/* .container {
   display: flex;
   flex: 1;
   margin-top: 60px;
   width: calc(100vw);
-}
+} */
 
 /* 左侧菜单样式 */
-.sidebar {
+/* .sidebar {
   width: 220px;
   background: #16213e;
   min-height: calc(100vh - 60px);
@@ -66,7 +66,7 @@
   top: 60px;
   bottom: 0;
   overflow-y: auto;
-}
+} */
 
 .side-nav {
   padding: 16px 0;

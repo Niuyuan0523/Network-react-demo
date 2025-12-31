@@ -3,10 +3,10 @@ import './Layout.css'
 
 function Layout() {
   return (
-    <div className="w-full h-full flex flex-col">
+    <div className="w-full h-lvh flex flex-col">
       {/* 顶部导航 */}
       <header className="w-full h-60px flex items-center justify-between px-24px bg-[#646cff]">
-        <div className="logo">My React App</div>
+        <div className="font-bold text-white text-24px">My React App</div>
         {/* <nav className="top-nav">
           <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
             Demo
@@ -17,9 +17,9 @@ function Layout() {
         </nav> */}
       </header>
 
-      <div className="container">
+      <div className="flex flex-1 ">
         {/* 左侧菜单 */}
-        <aside className="sidebar">
+        <aside className="w-220px shrink-0 bg-[#16213e]">
           <nav className="side-nav">
             <NavLink to="/" end className={({ isActive }) => isActive ? 'menu-item active' : 'menu-item'}>
               <span className="menu-icon">📊</span>
@@ -33,7 +33,7 @@ function Layout() {
         </aside>
 
         {/* 右侧主内容区 */}
-        <main className="main-content">
+        <main className="flex-1">
           <Outlet />
         </main>
       </div>
