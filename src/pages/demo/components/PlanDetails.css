@@ -1,0 +1,15 @@
+.main{
+    background: linear-gradient(180deg, #e5e5ff 0%, #b3b0ff 100%), #ffffff;
+}
+.before-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 169px;
+  height: 171px;
+  background-color: rgba(255, 255, 255, 0.08);
+  background-image: url('@/assets/img/sprintCampMain2026/zjhmb.png');
+  background-repeat: no-repeat;
+  background-size: 169px 171px;
+}

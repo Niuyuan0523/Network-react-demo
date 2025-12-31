@@ -1,5 +1,6 @@
 import { useState } from 'react';
 // import { Button } from 'antd';
+import PlanContent from './components/PlanContent';
 const subjectList = [
   { sysSubjectId: 1, sysSubjectName: '语文' },
   { sysSubjectId: 2, sysSubjectName: '数学' },
@@ -35,7 +36,7 @@ function DemoIndex() {
             </div>
             {/* 内容区域  */}
             <div className="flex-1 w-0 h-full ml-22px relative">
-    11
+                <PlanContent sysSubjectId={checkedSubjectId} />
             </div>
         </div>
     </div>

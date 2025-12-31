@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 const spacing = Array.from({ length: 1000 }, (_, index) => index + 1).reduce(
-  (acc, curr) => ({ ...acc, [`${curr}px`]: `${curr}px` }),
-  {},
-)
+  (acc, curr) => {
+    acc[`${curr}px`] = `${curr}px`
+    return acc
+  },{})
 export default {
   content: [
     "./index.html",
