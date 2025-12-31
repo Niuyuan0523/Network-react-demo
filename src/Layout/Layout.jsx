@@ -29,6 +29,10 @@ function Layout() {
               <span className="menu-icon">🏠</span>
               <span>Home</span>
             </NavLink>
+            <NavLink to="/summary" className={({ isActive }) => isActive ? 'menu-item active' : 'menu-item'}>
+              <span className="menu-icon">🏠</span>
+              <span>Summary</span>
+            </NavLink>
           </nav>
         </aside>
 

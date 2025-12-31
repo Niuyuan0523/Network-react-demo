@@ -1,0 +1,6 @@
+.bg-l{
+  background: linear-gradient( 225deg, #DDE3FF 0%, #EDF0FD 50.29%, #D6EEFD 100%), #F0F2FD;
+}
+.bg-r {
+  background: linear-gradient(180deg, #e5e5ff 0%, #b3b0ff 63%, #d8d8ff 100%), #ffffff;
+}

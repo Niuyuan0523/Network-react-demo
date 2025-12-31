@@ -22,3 +22,7 @@ html::-webkit-scrollbar,
 body::-webkit-scrollbar {
   display: none;
 }
+
+.no-bar::-webkit-scrollbar {
+    display: none;
+  }
