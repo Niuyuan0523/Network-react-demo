@@ -5,7 +5,7 @@ function Layout() {
   return (
     <div className="w-full h-full flex flex-col">
       {/* 顶部导航 */}
-      <header className="w-full h-[60px] flex items-center justify-between px-[24px] bg-[#646cff]">
+      <header className="w-full h-60px flex items-center justify-between px-24px bg-[#646cff]">
         <div className="logo">My React App</div>
         {/* <nav className="top-nav">
           <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
