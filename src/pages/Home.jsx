@@ -1,21 +1,17 @@
-import { Link } from 'react-router-dom'
-
 function Home() {
   return (
-    <div style={{ textAlign: 'center', padding: '50px' }}>
+    <div className="page-content">
       <h1>Home 页面</h1>
       <p>欢迎来到首页</p>
-      <nav style={{ marginTop: '20px' }}>
-        <Link to="/" style={{ 
-          padding: '10px 20px', 
-          backgroundColor: '#646cff', 
-          color: 'white', 
-          textDecoration: 'none',
-          borderRadius: '8px'
-        }}>
-          返回 Demo 页面
-        </Link>
-      </nav>
+      <div style={{ 
+        background: 'rgba(100, 108, 255, 0.1)', 
+        padding: '20px', 
+        borderRadius: '8px',
+        marginTop: '20px'
+      }}>
+        <h3>首页内容</h3>
+        <p>这里是 Home 页面的内容展示区域</p>
+      </div>
     </div>
   )
 }

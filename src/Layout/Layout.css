@@ -1,0 +1,109 @@
+/* .layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height: 60px;
+  background: #646cff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+} */
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.top-nav {
+  display: flex;
+  gap: 8px;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-link.active {
+  color: #fff;
+  background: #646cff;
+}
+
+/* 主容器 */
+.container {
+  display: flex;
+  flex: 1;
+  margin-top: 60px;
+  width: calc(100vw);
+}
+
+/* 左侧菜单样式 */
+.sidebar {
+  width: 220px;
+  background: #16213e;
+  min-height: calc(100vh - 60px);
+  position: fixed;
+  left: 0;
+  top: 60px;
+  bottom: 0;
+  overflow-y: auto;
+}
+
+.side-nav {
+  padding: 16px 0;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  transition: all 0.3s;
+  border-left: 3px solid transparent;
+}
+
+.menu-item:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.menu-item.active {
+  color: #fff;
+  background: rgba(100, 108, 255, 0.2);
+  border-left-color: #646cff;
+}
+
+.menu-icon {
+  font-size: 18px;
+}
+
+/* 右侧主内容区 */
+.main-content {
+  flex: 1;
+  margin-left: 220px;
+  padding: 24px;
+  background: #0f0f23;
+  min-height: calc(100vh - 60px);
+  width: 100%;
+}
