@@ -1,0 +1,11 @@
+.loading-animate{
+  animation: loadingFlow 1s linear infinite;
+}
+@keyframes loadingFlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

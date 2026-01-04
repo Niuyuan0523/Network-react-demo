@@ -1,7 +1,15 @@
 import GEmpty from '@global/g-empty/index.jsx'
+import GLoading from '@global/g-loading/index.jsx'
+import { useState } from 'react';
+
 function Home() {
+  const [loading, setLoading] = useState(true);
+  setTimeout(() => {
+    setLoading(false);
+  }, 2000);
   return (
     <div className="page-content">
+      {loading && <GLoading />}
       <h1>Home 页面</h1>
       <p>欢迎来到首页</p>
       <div style={{
