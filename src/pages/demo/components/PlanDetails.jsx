@@ -9,7 +9,7 @@ import './PlanDetails.css';
     5: '较难',
   }
 export default function PlanDetails(props) {
-    let {className,weekPlanList,removePlan} = props
+    let {className,weekPlanList} = props
   return (
     <div className={`${className} h-full main rounded-[15px] p-13px flex flex-col before-icon relative`}>
       <div className='w-full h-27px leading-17px mb-13px z-10'>

@@ -1,5 +1,5 @@
 import './index.css'
-import CustomInput from './components/customInput'
+import CustomInput from './components/CustomInput'
 // 学习总结静态页
 export default function Summary() {
   return (

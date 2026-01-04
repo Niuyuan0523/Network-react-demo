@@ -1,7 +1,7 @@
 import GEmpty from '@global/g-empty/index.jsx'
 import GLoading from '@global/g-loading/index.jsx'
 import { useState } from 'react';
-
+import { message } from 'antd'
 function Home() {
   const [loading, setLoading] = useState(true);
   setTimeout(() => {
@@ -18,7 +18,7 @@ function Home() {
         borderRadius: '8px',
         marginTop: '20px'
       }}>
-        <h3>首页内容</h3>
+        <h3 onClick={() => { message.info('This is a normal message'); }}>首页内容</h3>
         <p>这里是 Home 页面的内容展示区域</p>
         <GEmpty description="暂无数据"/>
       </div>
